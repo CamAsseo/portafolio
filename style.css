@@ -1,7 +1,7 @@
 /* Imports - Tipografía */
-@font-face { 
-    font-family: "";  
-    src: url(""), format("woff"); 
+@font-face {
+    font-family: "";
+    src: url(""), format("woff");
 }
 /* Reset */
 *,
@@ -81,4 +81,30 @@ body {
   font-family: var(--font-sans);
   background-color: var(--white);
   color: var(--black);
+}
+
+/* Proyectos */
+.proyectos {
+  padding: 60px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.proyecto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4fr 1fr;
+  border: 2px solid black;
+}
+
+.proyecto img {
+  width: 100%;
+ grid-column: 1 / 3;
+}
+.proyecto h2 {
+
+}
+.proyecto p {
+
 }
