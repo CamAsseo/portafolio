@@ -1,7 +1,12 @@
 /* Imports - Tipografía */
 @font-face {
-  font-family: "";
-  src: url(""), format("woff");
+  font-family: "Bold";
+  src: url("https: //res.cloudinary.com/drj7gvvzq/raw/upload/v1652195316/PPFuji-Bold_gv52cd.woff"), format("woff");
+}
+
+@font-face {
+  font-family: "Light";
+  src: url("https: //res.cloudinary.com/drj7gvvzq/raw/upload/v1652195316/PPFuji-Light-2_sjggja.woff"), format("woff");
 }
 
 /* Reset */
@@ -61,9 +66,8 @@ picture {
   --black: #000000;
   --white: #ffffff;
   /* 2. Tipografía */
-  --font-sans: '1', sans-serif;
-  --font-sans2: '2', sans-serif;
-  --font-sans3: '3', sans-serif;
+  --font-bold: 'Bold', sans-serif;
+  --font-light: 'Light', sans-serif;
   --font-size-1: 1rem;
   --font-size-2: 1.1rem;
   --font-size-3: 1.25rem;
@@ -80,9 +84,13 @@ picture {
 
 /* Base */
 body {
-  font-family: var(--font-sans);
+  font-family: var(--font-light);
   background-color: var(--white);
   color: var(--black);
+}
+
+.Bold {
+  font-family: var(--font-bold);
 }
 
 .head {
