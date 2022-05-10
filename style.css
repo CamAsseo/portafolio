@@ -1,12 +1,14 @@
 /* Imports - Tipografía */
 @font-face {
   font-family: "Bold";
-  src: url("https: //res.cloudinary.com/drj7gvvzq/raw/upload/v1652195316/PPFuji-Bold_gv52cd.woff"), format("woff");
+/*   src: url("https: //res.cloudinary.com/drj7gvvzq/raw/upload/v1652195316/PPFuji-Bold_gv52cd.woff"), format("woff"); */
+  src: url("https://res.cloudinary.com/pmichventura/raw/upload/v1652196261/CENTRO/Fuji-Bold_ueisgb.woff2"), format("woff2");
 }
 
 @font-face {
   font-family: "Light";
-  src: url("https: //res.cloudinary.com/drj7gvvzq/raw/upload/v1652195316/PPFuji-Light-2_sjggja.woff"), format("woff");
+/*   src: url("https: //res.cloudinary.com/drj7gvvzq/raw/upload/v1652195316/PPFuji-Light-2_sjggja.woff"), format("woff"); */
+  src: url("https://res.cloudinary.com/pmichventura/raw/upload/v1652196261/CENTRO/Fuji-Light_neqxbw.woff2"), format("woff2");
 }
 
 /* Reset */
@@ -66,8 +68,8 @@ picture {
   --black: #000000;
   --white: #ffffff;
   /* 2. Tipografía */
-  --font-bold: 'Bold', sans-serif;
-  --font-light: 'Light', sans-serif;
+  --font-bold: "Bold";
+  --font-light: "Light";
   --font-size-1: 1rem;
   --font-size-2: 1.1rem;
   --font-size-3: 1.25rem;
@@ -89,7 +91,11 @@ body {
   color: var(--black);
 }
 
-.Bold {
+.light {
+  font-family: var(--font-light);
+}
+
+.bold {
   font-family: var(--font-bold);
 }
 
