@@ -139,13 +139,13 @@ body {
 } */
 
 .head img {
-  height: 90px;
+  height: 120px;
   margin: auto;
-  margin-left: 0;
+  margin-left: 40px;
 }
 
 .head svg {
-  color: #e95282;
+  color: #e48ca6;
   width: 45px;
   height: auto;
   margin-left: auto;
@@ -163,7 +163,7 @@ body {
   gap: 50px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr auto;
-  margin-left: 9%;
+  margin-left: 15%;
   margin-top: 5%;
   margin-bottom: 10%;
 }
@@ -172,6 +172,7 @@ body {
   position: relative;
   /* display: grid; */
   border: 2px solid black;
+
 }
 
 .proyecto .head {
@@ -179,15 +180,20 @@ body {
 }
 
 .proyecto svg {
-  color: #e95282;
+  color: #e48ca6;
   width: 45px;
   height: auto;
-  margin-left: auto;
   right: 0;
   bottom: 20;
+
 }
 
-.proyecto .individual img {
+.proyecto .titulo img {
+  width: 3%;
+  margin-right: 50%;
+}
+
+.proyectos img {
   width: auto;
   height: 500px;
   object-fit: cover;
@@ -210,8 +216,6 @@ body {
   height: 90px;
   margin-left: auto;
 }
-
-
 
 .proyecto h2 {
   padding: 10PX;
