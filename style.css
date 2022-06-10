@@ -159,7 +159,7 @@ body {
   transition: all 0.2s ease-in-out;
 }
 
-.proyecto svg:hover {
+.proyectos svg:hover {
   animation: swing 1s ease;
   animation-iteration-count: 1;
 }
@@ -207,7 +207,7 @@ body {
   display: flex;
   border: 2px solid black;
   border-top: #ffffff;
-  font-size: 2vw;
+  font-size: 30px;
 }
 
 .titulo img {
@@ -223,7 +223,7 @@ body {
 .proyecto ul {
   display: flex;
   column-gap: 30px;
-  font-size: 1.6vw;
+  font-size: 26px;
   display: flex;
   border: 2px solid black;
   border-top: #ffffff;
@@ -314,4 +314,16 @@ body {
   font-family: 'Noto Sans', sans-serif;
   grid-column: 2/3;
   grid-row: 2;
+}
+
+@media screen and (max-width: 600px) {
+  .individual {
+    display: block;
+  }
+
+  .proyectos {
+    display: block;
+    padding: 0;
+    margin-top: 20px;
+  }
 }
